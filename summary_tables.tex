@@ -1,0 +1,87 @@
+\documentclass{article}
+\usepackage{graphicx} 
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\usepackage{geometry}
+\geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+\renewcommand{\rmdefault}{phv} % Arial
+\renewcommand{\sfdefault}{phv} % Arial
+
+\title{treeapp}
+\author{Anna Elizabeth Haigh}
+\date{October 2025}
+
+\begin{document}
+
+\begin{tabular}{|p{3.15cm}||p{1.1cm}|p{1.1cm}|p{1.1cm}|p{1.1cm}|p{1.1cm}|p{1.1cm}|p{1.1cm}|p{1.1cm}|}
+\hline
+\multicolumn{9}{|c|}{}\\
+\multicolumn{9}{|c|}{\large \textbf{Mean accuracy by learning tool (\%)}}\\
+\hline
+ & \multicolumn{2}{c|}{Dichotomous Key} & \multicolumn{2}{c|}{Matrix Key} & \multicolumn{2}{c|}{Image Recognition} & \multicolumn{2}{c|}{Field Guide} \\
+\hline
+Species & Genus & Species & Genus & Species & Genus & Species & Genus & Species \\
+\hline
+\textit{Pinus contorta} & 64 & 64 & 100 & 55 & 100 & 6 & 95 & 67\\
+& & & & & & & &\\
+\textit{Picea sitchensis} & 53 & 40 & 70 & 70 & 81 & 19 & 67 & 67\\
+& & & & & & & &\\
+\textit{Thuja plicata} & 87 & 87 & 100 & 100 & 100 & 100 & 95 & 95\\
+& & & & & & & &\\
+\textit{Tsuga heterophylla} & 43 & 43 & 100 & 100 & 100 & 100 & 100 & 100\\
+& & & & & & & &\\
+\textit{Taxus brevifolia} & 83 & 83 & 38 & 38 & 59 & 59 & 79 & 79\\
+& & & & & & & &\\
+\textit{Callitropsis nootkatensis} & 0 & 0 & 38 & 38 & 10 & 10 & 67 & 67\\
+\textit{Abies lasiocarpa} & 33 & 8 & 67 & 24 & 30 & 0 & 95 & 68\\
+& & & & & & & &\\
+\textit{Acer macrophyllum} & 91 & 67 & 85 & 35 & 100 & 100 & 100 & 76\\
+& & & & & & & &\\
+\textit{Frangula purshiana} & 78 & 78 & 76 & 76 & 100 & 94 & 85 & 85\\
+& & & & & & & &\\
+\textit{Betula occidentalis} & 60 & 50 & 23 & 23 & 56 & 56 & 79 & 79\\
+& & & & & & & &\\
+\textit{Quercus garryana} & 75 & 75 & 90 & 90 & 100 & 95 & 100 & 100\\
+& & & & & & & &\\
+\textit{Arbutus menziesii} & 63 & 63 & 86 & 86 & 100 & 100 & 95 & 95\\
+\hline  
+\hline
+Mean Accuracy & 61 & 55 & 73 & 61 & 78 & 61 & 88 & 81\\
+$\pm$ 90\% CI & $\pm$ 14 & $\pm$ 15 & $\pm$ 14 & $\pm$ 15 & $\pm$ 17 & $\pm$ 22 & $\pm$ 6 & $\pm$ 7\\
+\hline
+Conifer Accuracy & 52 & 46 & 73 & 61 & 68 & 41 & 85 & 77\\
+$\pm$ 90\% CI & $\pm$ 22 & $\pm$ 25 & $\pm$ 20 & $\pm$ 22 & $\pm$ 27 & $\pm$ 32 & $\pm$ 11 & $\pm$ 11\\
+\hline
+Hardwood Accuracy & 73 & 66 & 72 & 62 & 91 & 89 & 92 & 87\\
+$\pm$ 90\% CI & $\pm$ 12 & $\pm$ 11 & $\pm$ 27 & $\pm$ 30 & $\pm$ 19 & $\pm$ 18 & $\pm$ 9 & $\pm$ 10\\
+\hline
+\end{tabular} \\
+
+Table: Species and genus accuracy by learning tool. Summary statistics include 90\% confidence intervals. 
+\newpage
+
+\begin{tabular}
+{|p{2cm}||p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
+\hline
+\multicolumn{5}{|c|}{}\\
+\multicolumn{5}{|c|}{\large \textbf{Mean agreeable response by learning tool (\%) $\pm$ 90\% CI}}\\
+\hline
+ & Dichotomous Key & Matrix Key & Image Recognition & Field Guide \\
+\hline
+Observation & 86 $\pm$ 3 & 69  $\pm$ 8 & 70 $\pm$ 8 & 72 $\pm$ 8\\
+Recognition & 81 $\pm$ 3 & 61 $\pm$ 7 & 57 $\pm$ 6 & 68 $\pm$ 6\\
+Self-efficacy & 90 $\pm$ 4 & 52 $\pm$ 13 & 75 $\pm$ 11 & 91 $\pm$ 7\\
+\hline
+Mean agree & 84 $\pm$ 2 & 62 $\pm$ 5 & 63 $\pm$ 5 & 73 $\pm$ 4\\
+\hline
+\end{tabular} \\
+
+Table: Mean “agree” responses by learning tool and survey category with 90\% confidence intervals.
+
+
+\end{document}
