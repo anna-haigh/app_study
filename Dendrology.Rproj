@@ -1,0 +1,16 @@
+Version: 1.0
+ProjectId: 1a040a7d-d117-410d-a598-5f0a03bcd63c
+
+RestoreWorkspace: Default
+SaveWorkspace: Default
+AlwaysSaveHistory: Default
+
+EnableCodeIndexing: Yes
+UseSpacesForTab: Yes
+NumSpacesForTab: 2
+Encoding: UTF-8
+
+RnwWeave: Sweave
+LaTeX: pdfLaTeX
+
+ProjectName: Dendrology
